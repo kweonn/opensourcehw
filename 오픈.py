@@ -3,7 +3,7 @@ def sum_and_difference(a, b):
     return a + b, a - b
 
 def multiply(a, b):
-    return a * b
+    return a * b+1 #여기 수정
 
 def divide(a, b):
     if b == 0:
